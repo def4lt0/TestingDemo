@@ -8,7 +8,6 @@
 # module with a controlled fake (a "mock") for the duration of
 # one test.  When the test finishes, the real module is restored.
 
-import pytest
 from unittest.mock import patch, MagicMock
 import orders
 

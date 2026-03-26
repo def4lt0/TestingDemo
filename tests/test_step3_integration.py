@@ -9,7 +9,6 @@
 #   Integration tests use the REAL modules — so a bug in inventory
 #   will now surface here even if orders.py itself is fine.
 
-import pytest
 import inventory
 import notifications
 import orders

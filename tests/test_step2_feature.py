@@ -18,7 +18,6 @@
 #    - Tests represent realistic user scenarios (happy path, sad paths).
 #    - We are not deliberately breaking internal interfaces here.
 
-import pytest
 import cart
 import inventory
 import notifications
